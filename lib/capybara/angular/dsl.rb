@@ -9,7 +9,7 @@ module Capybara
         end
       end
 
-      def page
+      def angular_page
         wait_until_angular_ready
         Capybara.current_session
       end
